@@ -2,8 +2,8 @@
 title: Laura James
 description: >-
   Personal site of Laura James – Computer Science educator and developer.
-baseurl: "/laura-james-site" # Replace with your GitHub repo name if it's a project site
-url: "https://username.github.io" # Replace with your GitHub username
+baseurl: "/" # Replace with your GitHub repo name if it's a project site
+url: "https://laura-james.github.io" # Replace with your GitHub username
 
 # Author info
 author:
