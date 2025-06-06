@@ -11,7 +11,8 @@ author:
   email: laura.james@example.com
 
 # Theme (must be GitHub Pages compatible)
-theme: minima
+#theme: minima
+theme: jekyll-theme-cayman	
 
 # Build settings
 markdown: kramdown
