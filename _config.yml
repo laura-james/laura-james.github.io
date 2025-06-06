@@ -1,6 +1,48 @@
-theme: jekyll-theme-minimal
-title: Laura James's homepage
-description: Bookmark this to keep an eye on my project updates!
-layout: page
-title: "ABOUT"
-permalink: /about
+# Site settings
+title: Laura James
+description: >-
+  Personal site of Laura James – Computer Science educator and developer.
+baseurl: "/laura-james-site" # Replace with your GitHub repo name if it's a project site
+url: "https://username.github.io" # Replace with your GitHub username
+
+# Author info
+author:
+  name: Laura James
+  email: laura.james@example.com
+
+# Theme (must be GitHub Pages compatible)
+theme: minima
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Navigation (used manually in layouts or includes)
+nav_pages:
+  - title: Home
+    url: /
+  - title: About Me
+    url: /about/
+  - title: Projects
+    url: /projects/
+  - title: Blog
+    url: /blog/
+  - title: Contact
+    url: /contact/
+
+# Social links (shown if the theme supports them)
+social_links:
+  github: https://github.com/laura-james
+  linkedin: https://www.linkedin.com/in/laura-james
+  twitter: https://twitter.com/laura_codes
+
+# Plugins (GitHub Pages-compatible)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Excluded files and folders
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
